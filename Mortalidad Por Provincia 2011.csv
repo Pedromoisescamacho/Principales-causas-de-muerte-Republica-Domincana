@@ -1,0 +1,73 @@
+Causas,Distrito Nacional,Azua,Baoruco,Barahona,Dajabon,Duarte,Elias piña,El seibo,Espaillat,Independencia,La altagracia,La Romana,La vega,Maria trinidad Sanchez,Monte Cristi,pedernales,Peravia,Puerto Plata,Hermanas Mirabal,Samana,San Cristobal,San Juan,San Pedro de macoris,Sanchez Ramirez,Santiago,Santiago Rodriguez,Valverde,Monseñor nouel,Monte plata,Hato mayor ,San Jose de ocoa,Santo domingo,Desconocido,Total
+1.01 Infecciosas intestinales,44,8,0,2,6,4,20,9,0,0,1,9,17,3,0,1,13,1,0,2,9,9,16,2,28,0,3,3,0,0,1,21,0,232
+1.02 Tuberculosis ,107,2,1,2,5,4,0,6,3,0,0,20,11,3,1,0,4,6,2,1,13,7,11,5,34,6,0,5,2,4,4,21,0,290
+1.03 Ciertas enfermedades transmitidas por vectores y rabia,1,0,0,2,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,10
+1.04 Ciertas enfermedades prevenibles por vacunas,14,0,0,2,0,5,0,1,2,1,0,0,5,1,0,1,1,3,0,0,0,2,0,1,7,0,2,1,0,0,1,2,0,52
+1.05 Meningitis,39,1,0,1,0,5,0,0,1,0,0,1,2,1,0,0,0,1,0,0,1,1,0,0,13,0,0,0,2,0,0,13,0,82
+"1.06 Septicemia, excepto neonatal",205,2,0,4,0,7,0,0,2,0,3,2,8,2,2,0,2,3,3,2,2,3,6,3,95,2,2,4,1,1,0,31,0,397
+1.07 Enfermedad por el VIH (SIDA),110,6,0,9,6,13,1,4,7,0,4,25,23,7,10,1,10,11,4,9,21,12,18,3,80,7,3,7,11,3,1,39,0,465
+1.08 Infecciones respiratorias agudas,346,16,5,10,7,63,9,3,12,2,4,16,36,22,3,2,70,37,27,3,17,12,37,5,179,6,6,13,2,5,3,85,0,1063
+1.09 Resto de ciertas enfermedades infecciosas y parasitarias,25,1,0,0,3,6,0,0,0,0,0,2,9,0,1,0,1,1,0,0,5,2,5,2,19,1,0,0,0,0,0,9,0,92
+2.01 Tumor maligno del estomago,37,4,2,6,1,13,3,3,11,1,1,11,35,7,2,0,4,12,2,5,12,9,8,4,48,3,2,6,7,3,2,21,0,285
+2.02 Tumor maligno del colon,76,0,2,4,2,11,1,2,7,2,0,11,20,4,8,1,6,8,9,2,13,4,7,4,54,3,4,9,1,4,2,33,0,314
+2.03 Tumor maliggno otros organos digestivos y peritoneo,143,9,2,6,10,19,2,7,11,2,1,23,47,13,8,1,9,31,9,6,25,13,26,13,94,11,9,13,9,5,6,55,0,638
+"2.04 Tumor maligno de la traquea, bronquios y pulmón",115,7,2,3,7,22,7,10,19,0,0,12,48,14,7,0,12,12,18,3,12,11,17,13,88,7,11,10,7,1,4,51,0,550
+2.05 Tumor maligno de otros organos respitatorios e intratorácicos,11,1,0,0,0,2,0,1,3,0,0,2,1,1,1,0,1,2,2,0,1,3,1,1,13,2,0,0,0,0,0,7,0,56
+2.06 Tumor maligno de la mama femenina,85,3,3,8,3,15,1,5,7,2,0,13,17,8,5,0,5,12,1,6,17,8,11,1,38,2,5,7,7,6,1,44,0,346
+2.07 Tumor maligno del cuello del útero,36,3,1,2,5,8,1,0,2,2,0,8,19,2,3,0,2,4,2,1,12,1,14,3,25,0,3,4,3,0,2,17,0,185
+2.08 Tumor maligno del cuerpo del utero,8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,2,0,15
+"2.09 Tumor maligno del utero, parte no especificada",11,1,0,0,0,6,1,4,0,0,0,0,3,1,1,0,0,5,1,1,4,4,3,0,7,0,0,0,2,5,2,3,0,65
+2.10 Tumor maligno de la prostata,113,24,6,11,10,28,8,12,16,2,1,25,36,14,11,1,18,46,16,18,42,18,25,11,93,12,7,27,16,21,14,78,0,780
+2.11 Tumor maligno de otros organos genitourinarios,38,5,0,6,1,6,1,0,2,3,0,2,3,4,5,0,5,3,4,2,4,3,4,1,28,2,1,3,5,1,2,14,0,158
+2.12 Leucemia,61,1,1,1,0,6,1,2,2,1,0,1,8,5,1,0,3,6,3,0,3,3,3,0,34,2,4,3,1,1,0,7,0,164
+"2.13 Tumor maligno del tejido linfatico, de otros organos hematopoyeticos y de tejidos afines",64,1,0,0,1,2,0,0,4,0,0,3,1,0,1,0,2,3,1,0,6,2,3,1,34,1,1,1,1,1,1,13,0,148
+2.14 tumores malignos de otras localizaciones y de las no especificadas,119,15,12,9,7,35,2,1,14,3,0,11,45,11,8,0,11,20,10,10,27,9,17,8,100,7,12,16,14,11,6,47,0,617
+"2.15 tumores in situ, benignos y los de comportamiento incierto y desconocido",33,1,0,2,1,24,0,0,1,0,0,1,18,2,2,1,1,6,3,4,2,5,4,3,21,1,2,6,1,0,2,7,0,154
+3.01 fiebre reumática aguda y enfermedades cardiacas reumáticas crónicas ,14,3,0,0,0,1,1,0,2,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,6,0,0,0,0,0,0,3,0,34
+3.02 Enfermedades hipertensivas,279,32,5,35,12,58,14,15,32,11,1,26,95,14,26,4,33,41,46,28,38,30,60,29,166,19,18,58,24,10,25,128,2,1414
+3.03 Enfermedades isquemicas del corazón,921,64,39,101,29,242,37,47,80,23,44,123,305,101,41,14,111,181,113,58,255,78,295,71,776,46,67,113,125,68,41,445,0,5054
+"3.04 Enfermedad cardiopulmonar, enfermedades de la circulacion pulmonar y otras formas de enfermedad del corazon",227,6,0,5,0,26,0,2,8,1,1,9,11,8,2,1,2,18,1,3,11,8,20,8,107,5,4,4,7,0,3,46,0,554
+3.05 Paro cardiaco,0,0,0,4,0,0,1,0,1,0,0,0,1,1,0,0,0,4,1,0,4,0,1,2,12,1,0,2,6,0,0,4,0,45
+3.06 Insuficiencia cardiaca,120,12,4,6,8,16,6,3,42,2,4,17,53,17,10,0,9,73,5,16,24,24,29,6,50,7,25,23,17,13,12,38,0,691
+3.07 Enfermedades cerebrovascualres,658,81,16,66,24,168,32,25,57,22,2,82,217,52,28,3,86,82,49,34,198,117,106,42,424,29,50,111,63,28,29,225,0,3206
+3.08 Aterosclerosis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,8,0,9,0,1,0,0,0,0,1,0,0,0,23
+3.09 Las demas enfermedades del sisrtema  circualatorio,50,2,0,0,0,8,0,1,2,1,0,2,11,1,1,0,2,7,1,0,2,1,7,2,26,0,1,4,1,1,0,15,0,149
+4.01 Feto y recien nacido afectados por ciertas afecciones maternas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,1,0,0,1,0,0,0,0,0,0,1,0,7
+4.02 Feto y recien nacido afectados por complicaciones obstetricas y traumatismo del nacimiento,11,0,0,1,0,1,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,1,1,15,0,0,1,0,0,0,2,0,36
+"4.03 Retardo del creciemiento fetal, desnutricion fetal, gestacion corta y bajo al nacer",60,5,0,6,1,4,0,0,0,0,7,9,2,3,0,0,0,8,0,2,18,10,26,1,43,0,2,4,1,0,0,23,0,235
+4.04 Trastornos respiratorios especificos del periodo perionatal,429,16,0,52,7,59,2,4,0,0,39,21,49,22,1,0,13,17,7,3,37,24,78,2,351,5,5,12,3,1,1,212,0,1472
+4.05 Sepsis bacteriana del recién nacido,278,6,1,18,1,11,2,0,0,1,5,4,6,3,1,1,0,4,0,0,24,7,6,3,195,1,0,4,0,1,0,308,0,891
+4.06 Resto de ciertas afecciones originadas en el periodo perinatal,68,2,0,0,0,0,0,0,0,0,1,1,4,0,0,0,0,2,0,0,0,0,1,0,52,0,0,0,0,0,0,19,0,150
+5.01 Accidentes de transporte terrestre,106,50,5,26,11,61,3,5,15,6,8,21,135,30,18,3,51,47,18,23,74,25,54,10,217,4,18,64,18,8,7,261,0,1402
+5.02 Los demas accidentes de transporte y los no especificados,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5.03 Caidas,6,1,0,0,1,0,0,0,0,0,1,0,0,0,1,2,1,1,0,0,2,0,0,0,6,1,1,0,1,1,0,8,0,34
+5.04 Accidentes por disparo de arma de fuego,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5.05 Ahogamiento y sumersion accidentales,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,2,2,0,3,1,1,1,1,2,0,0,1,3,0,0,3,0,24
+5.06 Accidentes que obstruyen la respiracion,16,0,0,0,1,1,2,0,0,0,0,2,2,0,0,0,4,1,1,0,5,3,1,0,11,1,0,0,0,0,0,11,0,62
+5.07 Exposicion a la corriente electrica,16,3,0,2,0,4,0,0,2,1,3,2,5,3,0,0,3,3,3,1,10,4,4,2,17,0,1,7,4,0,0,20,0,120
+"5.08 Exposiscion al humo, fuego y llamas",14,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,4,0,1,0,2,0,0,0,1,0,0,0,0,0,0,6,0,33
+5.09 Envenenamiento accidental por y exposiscion a sustancias nocivas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,4
+5.10 Los demas accidentes,91,1,2,3,0,9,4,0,2,0,1,4,18,4,1,0,3,7,0,1,2,5,6,3,108,1,0,5,1,2,1,33,0,318
+5.11 Lesiones autoinflingidas intencionalmente,23,6,3,0,5,12,0,2,3,1,2,4,13,3,3,0,9,8,12,5,6,3,10,3,30,3,8,11,5,3,5,30,0,231
+5.12 Agresiones (homicidios),207,16,2,12,5,42,5,10,13,5,4,18,38,9,6,0,2,26,15,20,42,16,40,7,101,1,5,26,24,8,4,249,0,978
+5.13 Eventos de intencion no determinada,133,3,3,7,4,21,4,8,8,1,5,19,55,17,4,5,11,21,17,14,22,8,22,8,81,4,4,8,5,3,2,117,0,644
+5.14 Las demas causas externas,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+6.01 Diabetes Mellitus,247,23,4,17,11,90,7,10,10,5,0,48,90,48,12,2,25,55,17,20,59,21,62,16,171,17,18,40,22,9,6,101,0,1283
+6.02 Deficiencias nutricionales y anemias nutricionales,23,1,0,3,1,5,2,4,0,0,0,3,3,0,0,0,2,0,0,0,4,3,3,1,8,0,0,2,3,0,0,7,0,78
+6.03 Trastornos mentales y del comportamienrto,19,2,1,3,2,2,1,0,1,1,0,1,5,0,0,0,1,1,0,2,2,3,0,1,6,1,0,0,2,2,0,9,0,68
+6.04 Enfermedades del sist. Nervioso excepto meningitis,94,7,0,7,1,7,3,3,4,2,2,5,13,4,3,0,10,6,2,1,13,11,5,3,49,1,2,5,7,1,0,42,0,313
+6.05 Enfermedades cronicas de las vias respiratorias inferiores,106,7,0,6,10,26,4,6,13,0,0,11,44,9,9,0,12,23,11,8,17,19,10,7,116,6,13,19,8,7,3,37,0,567
+6.06 Resto de enfermedades del sistema respiratorio,363,29,4,8,5,26,6,10,17,1,9,16,50,25,8,1,33,29,42,13,37,11,27,12,136,5,19,29,14,7,7,112,1,1112
+"6.07 Apendicitis, hernia de la cavidad abdominal y obstrucción intestinal",36,0,1,0,1,5,0,2,3,0,0,1,5,2,0,0,3,2,2,1,2,0,4,0,17,0,3,2,0,0,0,4,0,96
+6.08 Cirrosis y ciertas otras enfermedades crónicas del higado,83,3,2,9,1,37,3,3,7,6,4,7,33,8,2,1,12,19,6,6,31,11,19,7,71,2,6,11,19,10,1,32,0,472
+6.09 Resto de enfermedades del sistema digestivo,192,5,1,4,7,20,2,2,5,3,0,7,26,12,1,1,9,18,4,4,13,12,21,4,93,7,8,9,7,0,2,31,0,530
+6.10 Enfermedades del sistema urinario,93,3,3,5,0,13,1,3,0,2,1,5,11,4,0,0,9,15,4,5,14,7,17,4,42,1,3,12,3,2,0,32,0,314
+6.11 Hiperplasia de la prostata,3,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,3,0,1,0,2,0,0,0,2,1,0,2,0,18
+"6.12 Complicaciones del embarazo, parto y puerperio",70,2,0,4,1,5,0,0,0,0,4,3,3,1,0,0,2,2,1,1,9,4,17,0,32,1,3,3,3,0,0,24,0,195
+"6.13 Malformaciones , deformidades y anomalias cromosomicas",271,6,0,4,0,7,1,2,2,1,0,3,11,4,0,0,8,5,2,0,9,7,6,1,116,1,2,8,3,1,1,68,0,550
+6.14 Resto de enfermedades,94,5,1,4,8,6,4,7,2,6,2,7,11,4,1,1,5,5,2,4,10,5,12,3,46,0,3,9,2,2,1,19,0,291
+Total*,7263,513,134,510,234,1299,205,244,458,123,165,681,1744,537,260,49,660,970,501,353,1259,621,1218,346,4842,246,366,745,495,262,205,3347,3,30858
+0.00 Estados morbosos mal definidos,225,25,15,36,15,40,8,9,2,24,3,53,155,30,17,4,15,41,7,16,37,66,23,18,177,10,47,16,57,9,7,153,2,1362
+TOTAL,7488,538,149,546,249,1339,213,253,460,147,168,734,1899,567,277,53,675,1011,508,369,1296,687,1241,364,5019,256,413,761,552,271,212,3500,5,32220
+"Fuente: Base de datos del registro del certificado de defuncion, Departamento General de Informacion en Salud (DIS), Ministerio de Salud Publica",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+* Excluye 0.00 Estados morbosos mal definidos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
