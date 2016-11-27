@@ -1,0 +1,19 @@
+---
+title: "Causas Muerte Republica Domincana, 2011-2012"
+author: "Pedro Camacho"
+date: "26 November 2016"
+output: html_document
+---
+#1.Leyendo la data
+La data se encuentra en un repositorio de Github de forma pública, de forma que cualquier persona pueda acceder al mismo. Para incrementar la reproducibilidad de este analisis vamos a descargar los documentos directamente del repositorio de Githup. 
+```{r}
+url <- ""
+```
+
+#2. Modificando los datos
+la tabla entregada por el Ministerio de Salud Pública se encuentra en formta de excel, para poder trabajar en R la convertimos a CSV desde el mismo excel. Esto se convirtio en dos documentos uno para el 2011 y otro para el 2012. Los documentos presentan la cantidad de muertes por provincia por causa de muerte; donde cada linea es una causa de muerte y cada columna es una provincia de RD. También el documento incluye una linea y una columna sumando los totales. 
+
+Este formato no es el apropiado como base de datos dado que limita los analisis, por lo que en primera instancia vamos a modificar la base de datos para que cada linea sea una causa de (observacion) y tengamos una columna con la provincia en la que se dio. 
+``` {r}
+
+```
