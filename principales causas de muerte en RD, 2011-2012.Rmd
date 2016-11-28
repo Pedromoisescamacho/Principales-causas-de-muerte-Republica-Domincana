@@ -2,18 +2,54 @@
 title: "Causas Muerte Republica Domincana, 2011-2012"
 author: "Pedro Camacho"
 date: "26 November 2016"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 #1.Leyendo la data
 La data se encuentra en un repositorio de Github de forma pública, de forma que cualquier persona pueda acceder al mismo. Para incrementar la reproducibilidad de este analisis vamos a descargar los documentos directamente del repositorio de Githup. 
 ```{r}
-url <- ""
+url2011 <- "https://github.com/Pedromoisescamacho/Principales-causas-de-muerte-Republica-Domincana/raw/master/Mortalidad%20Por%20Provincia%202011.csv"
+url2012 <- "https://raw.githubusercontent.com/Pedromoisescamacho/Principales-causas-de-muerte-Republica-Domincana/master/Mortalidad%20Por%20Provincia%202012.csv"
 ```
 
 #2. Modificando los datos
-la tabla entregada por el Ministerio de Salud Pública se encuentra en formta de excel, para poder trabajar en R la convertimos a CSV desde el mismo excel. Esto se convirtio en dos documentos uno para el 2011 y otro para el 2012. Los documentos presentan la cantidad de muertes por provincia por causa de muerte; donde cada linea es una causa de muerte y cada columna es una provincia de RD. También el documento incluye una linea y una columna sumando los totales. 
-
-Este formato no es el apropiado como base de datos dado que limita los analisis, por lo que en primera instancia vamos a modificar la base de datos para que cada linea sea una causa de (observacion) y tengamos una columna con la provincia en la que se dio. 
+la tabla entregada por el Ministerio de Salud Pública se encuentra en formta de excel, para poder trabajar en R la convertimos a CSV desde el mismo excel. Esto se convirtio en dos documentos uno para el 2011 y otro para el 2012. Los documentos presentan la cantidad de muertes por provincia por causa de muerte; donde cada linea es una causa de muerte y cada columna es una provincia de RD. También el documento incluye una linea y una columna sumando los totales. el siguiente codigo lee los dos documentos:
 ``` {r}
-
+muerte1 <- read.csv(url2011, header = T, nrows = 69) #luego de la linea 70 la tabla contiene informaciones generales que no vienen al caso
+muerte2 <- read.csv(url2012, header = T, nrows = 69) #luego de la linea 70 la tabla contiene informaciones generales que no vienen al caso
+muerte1$periodo <- as.factor("2011")
+muerte2$periodo <- as.factor("2012")
+m       <- rbind(muerte1, muerte2)
 ```
+
+Este formato no es el apropiado como base de datos dado que limita los analisis, por lo que en primera instancia vamos a modificar la base de datos para que cada linea sea una causa de (observacion) y tengamos una columna con la provincia en la que se dio. Tambien tenemos que sacar las lineas y columnas que tienen totales. 
+```{r }
+linea <- grep("total", m$Causas,ignore.case = T) #buscamos las lineas que tiene "total"
+columna <- grep("total", names(m), ignore.case = T) #buscamos las columnas con nombre "total"
+m2<- m[c(-linea), -(columna)] #eliminamos de la base de datos las lineas y columnas con "total"
+m2$Causas <- as.factor(as.character(m2$Causas)) #eliminamos el factor total que todavia se encontraba
+library(reshape2) #cargamos el paquete que utilizaremos para agregar 
+m3 <- melt(m2, id = c("Causas", "periodo")) #creamos la variable provincia coloca
+names(m3) <- c("causas", "periodo", "provincia", "muertes")
+```
+con el bloque de codigos anterior obtenemos una base de datos donde cada una de las columnas es una variable. Por otro lado debemos de hacer mas leible la columna de Causas. Esta columna inicia con un código de 3 numeros que identifica las causas. Por ejemplo en "1.02" el número antes del punto es el grupo de la causa y los números luego del punto la causa específica. Por lo tanto vamos a crear una variable con el grupo, otra con el numero especifico de la causa y otra con la causa en letras. 
+``` {r}
+m3$grupo <- as.factor(as.character(substr(m3$causas, 1, 1))) #extrae el primer numero
+m3$causas <- as.factor(substr(m3$causas, 6, 100)) #extre solo el texto de la columna
+m3$provincia <- as.factor(gsub("\\.", " ", m3$provincia)) #quitando los puntos de los nombres de las provincias
+```
+Lo numeros en la recien creada variable "grupo" no indican rapidamente a que grupo nos referimos, por lo que ahora vamos a colocar nombres a los grupos. 
+``` {r }
+levels(m3$grupo) <- c("Infección/Parásito", "Tumores/Cáncer", "Sis. Circulatorio", "Perinatal", "Muertes Violentas", "Otros", "Mal definidos")
+m4 <- m3[,c(5,1:4)] #reorganizando las columnas de la tabla
+```
+
+La tabla final obtenida tiene unas dimensiones de `r dim(m4)` vs `r dim(m)` de la tabla inicial, siendo m4 mucho mas facil de trabajar. 
+
+#Análisis
+Primero vamos el crecimiento de los diferentes grupos por año
+```{r}
+barplot(acast(m4, periodo ~ grupo, sum), legend.text = T, beside = T)
+```
+
